@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "Sergio De León here (in Japan actually). A bachelor in Electronics Engineering but working as a full stack engineer consultant, mass public event producer and currently tinkering in IoT for Humans research.",
+    "description": "Sergio De León here (in Japan actually). A bachelor in Electronics Engineering but working as a full stack engineer consultant for over 10 years, mass public event producer and currently tinkering in research of Accessible Augmented Reality applications for the General Public on Smartphones.\nDatabase, back-end, front-end, creating tools for monitoring both sales and systems resources and cybersecurity. A well rounded engineer and researcher that also gets involved in their community development.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -21,21 +21,29 @@
       "url": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
+          "class": "devicon-php-plain",
           "name": "PHP"
         },
         {
-          "class": "devicon-typescript-plain",
+          "class": "devicon-mariadb-plain",
+          "name": "MariaDB"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-centos-plain",
           "name": "CentOS"
         },
         {
-          "class": "devicon-csharp-plain",
+          "class": "devicon-flutter-plain",
           "name": "Flutter"
         }
       ]
     },
     {
-      "title": "Photography",
+      "title": "E-commerce",
       "startDate": "2018",
       "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
       "images": [
@@ -55,7 +63,27 @@
       ]
     },
     {
-      "title": "3D Object Viewer",
+      "title": "Assistance and Telephone Switching Management",
+      "startDate": "2018",
+      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Social Improvement Works",
       "startDate": "2015",
       "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
       "images": [
