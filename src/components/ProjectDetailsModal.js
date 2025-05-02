@@ -4,6 +4,8 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import * as toolbox from "../toolbox";
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -14,15 +16,25 @@ class ProjectDetailsModal extends Component {
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
+          var elem = icons.class.startsWith("devicon") ?
+            (
+              <i className={icons.class} style={{ fontSize: "300%" }}>
+                <p className="text-center" style={{ fontSize: "30%" }}>
+                  {icons.name}
+                </p>
+              </i>
+            ):
+            (
+              <div>
+                <i className={icons.class} style={{ fontSize: "300%" }}></i>
+                <p className="text-center" style={{ fontSize: "81%" }}>{icons.name}</p>
+              </div>
+            );
           return (
             <li className="list-inline-item mx-3" key={i}>
               <span>
                 <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
-                    </p>
-                  </i>
+                  {elem}
                 </div>
               </span>
             </li>
@@ -93,7 +105,7 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <p className="modal-description">{toolbox.addLineBreak(description ?? "")}</p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

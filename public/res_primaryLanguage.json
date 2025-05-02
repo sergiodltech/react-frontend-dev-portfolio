@@ -13,16 +13,28 @@
     {
       "title": "Mobile Top-Up Service",
       "startDate": "2013",
-      "description": "One of my oldest projects and the one I am most proud of. A full-stack project from setting up its VPS to the 5 different user-facing front-end platforms, including its monolitic back-end with its own drama-filled chapter of migration to an API-based service.",
+      "description": "One of my oldest projects and the one I am most proud of. A full-stack project from setting up its VPS to the 5 different user-facing front-end platforms: SMS, Chatbot, Interactive Voice Menus, App and more. It has evolved from its monolitic back-end to a full API-based architecture.\n\nWishlist: convert its architecture into microservices leveraging containers.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/topup/GooglePlay.png",
+        "images/portfolio/topup/MonthlyUsers.png"
       ],
       "url": "",
       "technologies": [
         {
           "class": "devicon-php-plain",
           "name": "PHP"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "material-symbols--asterisk-rounded",
+          "name": "Asterisk"
+        },
+        {
+          "class": "material-symbols--sms-outline-rounded",
+          "name": "SMS"
         },
         {
           "class": "devicon-mariadb-plain",
@@ -33,52 +45,116 @@
           "name": "React"
         },
         {
-          "class": "devicon-centos-plain",
-          "name": "CentOS"
+          "class": "devicon-linux-plain",
+          "name": "Linux"
+        },
+        {
+          "class": "devicon-raspberrypi-plain",
+          "name": "RaspPi"
         },
         {
           "class": "devicon-flutter-plain",
           "name": "Flutter"
+        },
+        {
+          "class": "material-symbols--security-rounded",
+          "name": "iptables"
+        },
+        {
+          "class": "material-symbols--security-rounded",
+          "name": "fail2ban"
         }
       ]
     },
     {
       "title": "E-commerce",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "startDate": "2017",
+      "description": "Migration of a whole online catalogue and closed-source POS system to an Open Source E-Commerce platform. Working together with credit card payments Gateway to develope in-house OpenCart plugins for transparent credit card operations with local banks.",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/portfolio/ecommerce/Ecommerce1.png",
+        "images/portfolio/ecommerce/Map.png"
       ],
-      "url": "https://github.com",
+      "url": "",
       "technologies": [
         {
-          "class": "devicon-react-original",
-          "name": "React"
+          "class": "devicon-php-plain",
+          "name": "PHP"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "material-symbols--code-blocks-outline",
+          "name": "Twig"
+        },
+        {
+          "class": "devicon-linux-plain",
+          "name": "Linux"
+        },
+        {
+          "class": "devicon-mariadb-plain",
+          "name": "MariaDB"
+        },
+        {
+          "class": "material-symbols--security-rounded",
+          "name": "iptables"
+        },
+        {
+          "class": "material-symbols--security-rounded",
+          "name": "fail2ban"
         }
       ]
     },
     {
-      "title": "Assistance and Telephone Switching Management",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "title": "Attendance and Telephone Switching Management",
+      "startDate": "2012",
+      "description": "One of my most complex projects and the most scary to migrate. A stack of Biometric SDKs working over Wine, under SeLinux, over a virtualized CentOS on Hyper-V accessing an old Access DB over a Windows Network. But... IT WORKS (oh my god, why).\n\nSuch complexity extends to the State Machines needed to manage a custom attendance keeping designs that handles departments, external workers, work leaves, overtimes, holidays, and all related considerations for correct time keeping.",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/portfolio/attendance/Devices.png",
+        "images/portfolio/attendance/Turns.png"
       ],
-      "url": "https://github.com",
+      "url": "",
       "technologies": [
         {
-          "class": "devicon-react-original",
-          "name": "React"
+          "class": "devicon-php-plain",
+          "name": "PHP"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-linux-plain",
+          "name": "Linux"
+        },
+        {
+          "class": "mdi--glass-wine",
+          "name": "WineHQ"
+        },
+        {
+          "class": "material-symbols--multimodal-hand-eye-outline",
+          "name": "Attendance"
+        },
+        {
+          "class": "devicon-windows8-plain",
+          "name": "Windows"
+        },
+        {
+          "class": "mdi--local-area-network",
+          "name": "Networking"
+        },
+        {
+          "class": "material-symbols--screenshot-monitor-outline-rounded",
+          "name": "Hyper-V"
+        },
+        {
+          "class": "devicon-mariadb-plain",
+          "name": "MariaDB"
+        },
+        {
+          "class": "material-symbols--security-rounded",
+          "name": "iptables"
+        },
+        {
+          "class": "material-symbols--security-rounded",
+          "name": "SeLinux"
         }
       ]
     },
@@ -87,8 +163,8 @@
       "startDate": "2015",
       "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/ecommerce/Ecommerce1.jpg",
+        "images/portfolio/ecommerce/p2.jpg"
       ],
       "url": "https://github.com",
       "technologies": [
