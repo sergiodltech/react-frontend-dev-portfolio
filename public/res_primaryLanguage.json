@@ -57,6 +57,18 @@
           "name": "Flutter"
         },
         {
+          "class": "devicon-bash-plain",
+          "name": "Scripting"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Datamining"
+        },
+        {
+          "class": "devicon-haskell-plain",
+          "name": "Haskell"
+        },
+        {
           "class": "material-symbols--security-rounded",
           "name": "iptables"
         },
@@ -105,7 +117,7 @@
     {
       "title": "Attendance and Telephone Switching Management",
       "startDate": "2012",
-      "description": "One of my most complex projects and the most scary to migrate. A stack of Biometric SDKs working over Wine, under SeLinux, over a virtualized CentOS on Hyper-V accessing an old Access DB over a Windows Network. But... IT WORKS (oh my god, why).\n\nSuch complexity extends to the State Machines needed to manage a custom attendance keeping designs that handles departments, external workers, work leaves, overtimes, holidays, and all related considerations for correct time keeping.",
+      "description": "One of my most complex projects and always the most scary to migrate. A stack of Biometric SDKs working over Wine, under SeLinux, over a virtualized CentOS on Hyper-V accessing an old Access DB over a Windows Network. But... IT WORKS (oh my god, why).\n\nSuch complexity extends to the State Machines needed to manage a custom attendance keeping design that handles departments, external workers, work leaves, overtimes, holidays, and all related considerations for correct time keeping.",
       "images": [
         "images/portfolio/attendance/Devices.png",
         "images/portfolio/attendance/Turns.png"
@@ -150,7 +162,7 @@
         },
         {
           "class": "material-symbols--security-rounded",
-          "name": "iptables"
+          "name": "Firewall(s)"
         },
         {
           "class": "material-symbols--security-rounded",
@@ -160,7 +172,7 @@
     },
     {
       "title": "Social Improvement Works",
-      "startDate": "2015",
+      "startDate": "2017",
       "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
       "images": [
         "images/portfolio/ecommerce/Ecommerce1.jpg",
@@ -181,32 +193,168 @@
           "name": "C#"
         }
       ]
+    },
+    {
+      "title": "Distributed Biometrics Attendance System API",
+      "startDate": "2017",
+      "description": "",
+      "images": [
+        "images/portfolio/biometric/turnstile.png",
+        "images/portfolio/ecommerce/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "Fitbit Annotator",
+      "startDate": "2023",
+      "description": "Originally part the second phase of my research, its evolution got halted by Google's silent decision to stop supporting Fitbit's Sense2 SDK development. A platform to record events, periods of activity and biometric signals from Fitbit's smartwatches. It is accompanied by a server-side script to retrieve all the data as CSV files on a safe manner that avoids missing data. The interface reuses recognizable standard emojis that the developer can use to quickly add new states and emotions to register.",
+      "images": [
+        "images/portfolio/fitbit/InterfaceDemo.gif"
+      ],
+      "url": "https://github.com/ubi-naist/Fitbit-Annotator",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "ES6 Javascript"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-css-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "PiInfoScreen",
+      "startDate": "2023",
+      "description": "One of my pet projects, a weather display with e-paper for the RaspberryPi. Paired with a common SystemD deamonized script for RaspberryPi power control and PoE extensions, it makes any Raspi a very convenient over-the-desk device. Compatible with B and Zero sized Raspberry Pi's, by rotating the placement of the on-screen information it protects the e-paper from burn in too.",
+      "images": [
+        "images/portfolio/fitbit/InterfaceDemo.gif"
+      ],
+      "url": "https://github.com/sergiodltech/Waveshare2in7InfoScreen",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-bash-plain",
+          "name": "Scripting"
+        }
+      ]
+    },
+    {
+      "title": "ShowMe A Safe House",
+      "startDate": "2022",
+      "description": "One of my main Research projects. An interactive Disaster Preparedness Guideline designed to be able to reach the wide age range present in the General Public.\n\nRunning in both Android and iPhone phones thanks to the multiplatform capabilities of Unity3D, it leverages its extensive support of Augmented Reality and Deep Learning Object Detection models to offer a hands-on approach in improving the safety of personal spaces against the hazards of earthquakes.",
+      "images": [
+        "images/portfolio/showmesafehouse/InterfaceVisualStatus.jpg",
+        "images/portfolio/showmesafehouse/Interface.gif",
+        "images/portfolio/showmesafehouse/DiagramaDataflow.png"
+      ],
+      "url": "https://github.com/sergiodl-ubi/ShowMeSafeHouse",
+      "technologies": [
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-unity-plain",
+          "name": "Unity3D"
+        },
+        {
+          "class": "devicon-android-plain",
+          "name": "Android"
+        },
+        {
+          "class": "devicon-apple-plain",
+          "name": "iOS"
+        }
+      ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "KrowMx",
+      "title": "Full-Stack Developer",
+      "years": "2011.04 - 2015.07",
+      "mainTech": ["PHP/Python"],
       "technologies": [
+        "PHP",
         "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "SOAP",
+        "ES6 JavaScript",
+        "Linux VPS",
+        "Flutter",
+        "Android",
+        "MariaDB",
+        "MySQL",
+        "AccessDB",
+        "SeLinux",
+        "Asterisk",
+        "iptables",
+        "cPanel",
+        "GPS Trackers",
+        "Embedded C",
+        "C#",
+        "SVG Graphs",
+        "Scripting",
+        "Haskell",
+        "Raspberry Pi",
+        "Banking Gateways"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "Techoblige",
+      "title": "Consultant Full-Stack Support and Maintenance",
+      "years": "2015.07 - present",
+      "mainTech": ["Linux VPS and Software Development"],
+      "technologies": [
+        "PHP",
+        "REST API",
+        "SOAP",
+        "ES6 JavaScript",
+        "Bootstrap",
+        "Linux VPS",
+        "Microsoft Hyper-V",
+        ".NET Core",
+        "React",
+        "Flutter",
+        "Android",
+        "MariaDB",
+        "MySQL",
+        "SQL",
+        "SeLinux",
+        "iptables",
+        "InterWorx",
+        "Scripting",
+        "C#",
+        "SVG Graphs",
+        "Raspberry Pi",
+        "Banking Gateways",
+        "4G Gateways"
+      ]
     }
   ]
 }
