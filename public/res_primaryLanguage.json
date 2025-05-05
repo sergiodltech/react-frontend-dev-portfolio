@@ -16,9 +16,10 @@
       "description": "One of my oldest projects and the one I am most proud of. A full-stack project from setting up its VPS to the 5 different user-facing front-end platforms: SMS, Chatbot, Interactive Voice Menus, App and more. It has evolved from its monolitic back-end to a full API-based architecture.\n\nWishlist: convert its architecture into microservices leveraging containers.",
       "images": [
         "images/portfolio/topup/GooglePlay.png",
-        "images/portfolio/topup/MonthlyUsers.png"
+        "images/portfolio/topup/MonthlyUsers.png",
+        "images/portfolio/topup/TelegramBot.png"
       ],
-      "url": "",
+      "url": "http://techoblige.com/portfolio-topup-redirect.html",
       "technologies": [
         {
           "class": "devicon-php-plain",
@@ -86,7 +87,7 @@
         "images/portfolio/ecommerce/Ecommerce1.png",
         "images/portfolio/ecommerce/Map.png"
       ],
-      "url": "",
+      "url": "http://techoblige.com/portfolio-ecommerce-redirect.html",
       "technologies": [
         {
           "class": "devicon-php-plain",
@@ -172,49 +173,57 @@
     },
     {
       "title": "Social Improvement Works",
-      "startDate": "2017",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "startDate": "2016",
+      "description": "Developing the professionalism and formalism of the social hobbies in my locality. From Japanese and Culture teacher to a producer and organizer of one of the most well regarded pop-culture events in my State and its area.",
       "images": [
-        "images/portfolio/ecommerce/Ecommerce1.jpg",
-        "images/portfolio/ecommerce/p2.jpg"
+        "images/portfolio/social/larocket.jpg",
+        "images/portfolio/social/kanji.jpg",
+        "images/portfolio/social/routing.jpg",
+        "images/portfolio/social/Shodou.jpg",
+        "images/portfolio/social/team.jpg",
+        "images/portfolio/social/Cards.jpg"
       ],
-      "url": "https://github.com",
+      "url": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-linux-plain",
+          "name": "Linux"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "material-symbols--security-rounded",
+          "name": "Firewall(s)"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "mdi--local-area-network",
+          "name": "Networking"
         }
       ]
     },
     {
       "title": "Distributed Biometrics Attendance System API",
       "startDate": "2017",
-      "description": "",
+      "description": "Creating the API for managing and communicating the biometric access and attendance of several branches of a dentist clinic. Here my previous experience with working with ZKTechnology and my bachelor in electronics really came to shine.",
       "images": [
-        "images/portfolio/biometric/turnstile.png",
-        "images/portfolio/ecommerce/p2.jpg"
+        "images/portfolio/biometric/Turnstile.jpg",
+        "images/portfolio/biometric/Turnstile-test.jpg"
       ],
       "url": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "material-symbols--multimodal-hand-eye-outline-rounded",
+          "name": "Biometrics"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-php-plain",
+          "name": "PHP"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-nginx-plain",
+          "name": "Nginx"
+        },
+        {
+          "class": "devicon-linux-plain",
+          "name": "Linux"
         }
       ]
     },
@@ -242,11 +251,11 @@
       ]
     },
     {
-      "title": "PiInfoScreen",
+      "title": "Pi-InfoScreen",
       "startDate": "2023",
       "description": "One of my pet projects, a weather display with e-paper for the RaspberryPi. Paired with a common SystemD deamonized script for RaspberryPi power control and PoE extensions, it makes any Raspi a very convenient over-the-desk device. Compatible with B and Zero sized Raspberry Pi's, by rotating the placement of the on-screen information it protects the e-paper from burn in too.",
       "images": [
-        "images/portfolio/fitbit/InterfaceDemo.gif"
+        "images/portfolio/piinfoscreen/PiInfoScreen.jpg"
       ],
       "url": "https://github.com/sergiodltech/Waveshare2in7InfoScreen",
       "technologies": [
@@ -269,7 +278,7 @@
         "images/portfolio/showmesafehouse/Interface.gif",
         "images/portfolio/showmesafehouse/DiagramaDataflow.png"
       ],
-      "url": "https://github.com/sergiodl-ubi/ShowMeSafeHouse",
+      "url": "http://research.ubi-lab.com/showme-safe-house/",
       "technologies": [
         {
           "class": "devicon-csharp-plain",
@@ -354,6 +363,47 @@
         "Raspberry Pi",
         "Banking Gateways",
         "4G Gateways"
+      ]
+    },
+    {
+      "company": "LaRocket",
+      "title": "Production Team",
+      "years": "2016.04 - 2021.03",
+      "mainTech": ["Coordination, Planning, Budgeting and Infrastructure"],
+      "technologies": [
+        "Google Services",
+        "Internet Gateways",
+        "Networking",
+        "Audio Equipment"
+      ]
+    },
+    {
+      "company": "Monterrey Institute of Technology and Higher Education",
+      "title": "Third Language Teacher",
+      "years": "2019.07 - 2021.02",
+      "mainTech": ["Presential and Remote lessons"],
+      "technologies": [
+        "Zoom",
+        "Special Needs Education"
+      ]
+    },
+    {
+      "company": "Nara Institute of Science and Technology",
+      "title": "Graduate Student",
+      "years": "2021.04 - Present",
+      "mainTech": ["Master and Phd Student"],
+      "technologies": [
+        "Unity3D",
+        "C#",
+        "Python",
+        "LaTeX",
+        "Google Services",
+        "Scripting",
+        "SciPy",
+        "Pandas",
+        "Numpy",
+        "ES6 Javascript",
+        "ffmpeg"
       ]
     }
   ]

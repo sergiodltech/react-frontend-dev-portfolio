@@ -21,47 +21,77 @@
         {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
-          "level": "95"
+          "level": "85"
         },
         {
           "name": "CSS 3",
           "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
           "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
         },
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
+          "level": "70"
+        },
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
           "level": "85"
+        },
+        {
+          "name": "ES6 Javascript",
+          "class": "devicon-javascript-plain",
+          "level": "80"
+        },
+        {
+          "name": "Flutter",
+          "class": "devicon-flutter-plain",
+          "level": "70"
+        },
+        {
+          "name": "Rust",
+          "class": "devicon-rust-plain",
+          "level": "20"
+        },
+        {
+          "name": "Haskell",
+          "class": "devicon-haskell-plain",
+          "level": "20"
         },
         {
           "name": "C#",
           "class": "devicon-csharp-plain",
-          "level": "65"
+          "level": "70"
         },
         {
-          "name": "MySql",
+          "name": "SQL",
           "class": "devicon-mysql-plain",
+          "level": "70"
+        },
+        {
+          "name": "Unity3D",
+          "class": "devicon-unity-plain",
           "level": "60"
+        },
+        {
+          "name": "Linux",
+          "class": "devicon-linux-plain",
+          "level": "80"
+        },
+        {
+          "name": "Windows",
+          "class": "devicon-windows8-plain",
+          "level": "50"
+        },
+        {
+          "name": "RaspberryPi",
+          "class": "devicon-raspberrypi-plain",
+          "level": "80"
+        },
+        {
+          "name": "Cybersecurity",
+          "class": "material-symbols--security-rounded",
+          "level": "70"
         }
       ]
     }
