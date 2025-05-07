@@ -30,6 +30,14 @@
           "name": "Python"
         },
         {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "ES6 Javascript"
+        },
+        {
           "class": "material-symbols--asterisk-rounded",
           "name": "Asterisk"
         },
@@ -94,6 +102,14 @@
           "name": "PHP"
         },
         {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "ES6 Javascript"
+        },
+        {
           "class": "material-symbols--code-blocks-outline",
           "name": "Twig"
         },
@@ -128,6 +144,10 @@
         {
           "class": "devicon-php-plain",
           "name": "PHP"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "ES6 Javascript"
         },
         {
           "class": "devicon-csharp-plain",
@@ -174,7 +194,7 @@
     {
       "title": "社会的向上",
       "startDate": "2016",
-      "description": "Developing the professionalism and formalism of the social hobbies in my locality. From Japanese and Culture teacher to a producer and organizer of one of the most well regarded pop-culture events in my State and its area.",
+      "description": "地域のソーシャルな趣味活動に対して、専門性と形式性を育む取り組みを行ってきました。日本語と文化の講師から、州内および周辺地域で高く評価されたポップカルチャー系イベントのプロデュース・運営まで、幅広い役割を担ってきました。",
       "images": [
         "images/portfolio/social/larocket.jpg",
         "images/portfolio/social/kanji.jpg",
@@ -200,9 +220,9 @@
       ]
     },
     {
-      "title": "Distributed Biometrics Attendance System API",
+      "title": "分散型バイオメトリクス勤怠管理システムAPI",
       "startDate": "2017",
-      "description": "Creating the API for managing and communicating the biometric access and attendance of several branches of a dentist clinic. Here my previous experience with working with ZKTechnology and my bachelor in electronics really came to shine.",
+      "description": "市内各地に分散する歯科クリニックの複数拠点における、バイオメトリック認証による入退室と勤怠管理を一括で行うためのREST APIを開発しました。これらのAPIには、各拠点が自分自身のログを安全に取得できるエンドポイントも用意しており、お客さんがデバイスネットワークの稼働状況を監視できるようになっています。本プロジェクトでは、ZKTechnology製のバイオメトリックデバイスに関するこれまでの経験と、電子工学の学士としての知識が大いに役立ち、1か月以内での納品を実現できました。",
       "images": [
         "images/portfolio/biometric/Turnstile.jpg",
         "images/portfolio/biometric/Turnstile-test.jpg"
@@ -228,9 +248,9 @@
       ]
     },
     {
-      "title": "Fitbit Annotator",
+      "title": "Fitbitアノテーター",
       "startDate": "2023",
-      "description": "Originally part the second phase of my research, its evolution got halted by Google's silent decision to stop supporting Fitbit's Sense2 SDK development. A platform to record events, periods of activity and biometric signals from Fitbit's smartwatches. It is accompanied by a server-side script to retrieve all the data as CSV files on a safe manner that avoids missing data. The interface reuses recognizable standard emojis that the developer can use to quickly add new states and emotions to register.",
+      "description": "当初は私の研究の第2フェーズの一環として開発されましたが、GoogleがFitbit Sense 2のSDKサポートを静かに終了したことで、進化は途中で停止することになりました。このアプリケーションは、Fitbitスマートウォッチから感情イベント、活動時間、生体信号を記録するためのプラットフォームでした。サーバー側には、アノテーションとバイオメトリクスデータをCSV形式で安全に取得できるスクリプトが用意されており、データの欠損が発生しないよう特に注意して設計されています。このインターフェースでは、開発者が状態や感情を素早く追加できるよう、誰でも見慣れた標準の絵文字が活用されています。",
       "images": [
         "images/portfolio/fitbit/InterfaceDemo.gif"
       ],
@@ -245,7 +265,7 @@
           "name": "PHP"
         },
         {
-          "class": "devicon-css-plain",
+          "class": "devicon-css3-plain",
           "name": "CSS"
         }
       ]
@@ -253,7 +273,7 @@
     {
       "title": "Pi-InfoScreen",
       "startDate": "2023",
-      "description": "One of my pet projects, a weather display with e-paper for the RaspberryPi. Paired with a common SystemD deamonized script for RaspberryPi power control and PoE extensions, it makes any Raspi a very convenient over-the-desk device. Compatible with B and Zero sized Raspberry Pi's, by rotating the placement of the on-screen information it protects the e-paper from burn in too.",
+      "description": "自由時間には、オートメーションやIoTに没頭するのが好きで、これはそのようなプロジェクトの一つです。Raspberry Piと電子ペーパーを使った天気表示デバイスで、SystemDでデーモン化した電源制御スクリプトやPoE拡張と組み合わせることで、どんなRaspiでも机上の便利な情報端末に変身します。BモデルやZeroサイズのRaspberry Piにも対応しており、画面上の情報配置を定期的に回転させることで、電子ペーパーの焼き付きも防止しています。さらに、このデバイスはWiFiアクセスポイントとしても設定されており、パーティーの際には、部屋のインターネットを数メートル離れたラウンジにシェアすることもできます！",
       "images": [
         "images/portfolio/piinfoscreen/PiInfoScreen.jpg"
       ],
@@ -266,13 +286,17 @@
         {
           "class": "devicon-bash-plain",
           "name": "Scripting"
+        },
+        {
+          "class": "mdi--local-area-network",
+          "name": "Networking"
         }
       ]
     },
     {
       "title": "ShowMe A Safe House",
       "startDate": "2022",
-      "description": "One of my main Research projects. An interactive Disaster Preparedness Guideline designed to be able to reach the wide age range present in the General Public.\n\nRunning in both Android and iPhone phones thanks to the multiplatform capabilities of Unity3D, it leverages its extensive support of Augmented Reality and Deep Learning Object Detection models to offer a hands-on approach in improving the safety of personal spaces against the hazards of earthquakes.",
+      "description": "主要な研究プロジェクトの一つです。一般市民の幅広い年齢層に届くことを目的とした、インタラクティブな防災ガイドラインアプリです。\n\nUnity3Dのマルチプラットフォーム対応により、AndroidおよびiPhoneの両方で動作し、拡張現実（AR）機能と深層学習による物体検出モデルを活用することで、地震による災害への備えを実践的にサポートします。これにより、身の回りの空間の安全性を自らの手で高めることが可能になります。",
       "images": [
         "images/portfolio/showmesafehouse/InterfaceVisualStatus.jpg",
         "images/portfolio/showmesafehouse/Interface.gif",
@@ -287,6 +311,10 @@
         {
           "class": "devicon-python-plain",
           "name": "Python"
+        },
+        {
+          "class": "token--0x0",
+          "name": "Deep Learning"
         },
         {
           "class": "devicon-unity-plain",
@@ -309,6 +337,7 @@
       "title": "コンサルタント、フルスタック、サポート、メンテナンス",
       "years": "2011.04 - 2015.07",
       "mainTech": ["PHP/Python"],
+      "mainTechIcon": "fab fa-php",
       "technologies": [
         "PHP",
         "REST API",
@@ -339,6 +368,7 @@
       "title": "コンサルタント、フルスタック、サポート、メンテナンス",
       "years": "2015.07 - 現在",
       "mainTech": ["Linux VPSとソフトウェア開発"],
+      "mainTechIcon": "fab fa-linux",
       "technologies": [
         "PHP",
         "REST API",
@@ -370,6 +400,7 @@
       "title": "プロデューサー・フロアマネージャー",
       "years": "2016.04 - 2021.03",
       "mainTech": ["コーディネーター、企画、予算、インフラなど"],
+      "mainTechIcon": "fas fa-users",
       "technologies": [
         "Google Services",
         "Internet Gateway",
@@ -379,12 +410,17 @@
     },
     {
       "company": "Monterrey Institute of Technology and Higher Education",
-      "title": "第三外国語教師",
+      "title": "日本語教師",
       "years": "2019.07 - 2021.02",
-      "mainTech": ["Presential and Remote lessons"],
+      "mainTech": ["集団指導"],
+      "mainTechIcon": "fas fa-language",
       "technologies": [
-        "Zoom",
-        "特別支援教育"
+        "リモート",
+        "対面",
+        "書道",
+        "文化",
+        "高校・大学生",
+        "特別支援生徒含む"
       ]
     },
     {
@@ -392,6 +428,7 @@
       "title": "大学院",
       "years": "2021.04 - 現在",
       "mainTech": ["修士・博士課程"],
+      "mainTechIcon": "fas fa-user-graduate",
       "technologies": [
         "Unity3D",
         "C#",

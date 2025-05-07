@@ -6,7 +6,7 @@
       "about": "About me",
       "projects": "Projects",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Professional Experience"
     }
   },
   "projects": [
@@ -28,6 +28,14 @@
         {
           "class": "devicon-python-plain",
           "name": "Python"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "ES6 Javascript"
         },
         {
           "class": "material-symbols--asterisk-rounded",
@@ -94,6 +102,14 @@
           "name": "PHP"
         },
         {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "ES6 Javascript"
+        },
+        {
           "class": "material-symbols--code-blocks-outline",
           "name": "Twig"
         },
@@ -128,6 +144,10 @@
         {
           "class": "devicon-php-plain",
           "name": "PHP"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "ES6 Javascript"
         },
         {
           "class": "devicon-csharp-plain",
@@ -174,7 +194,7 @@
     {
       "title": "Social Improvement Works",
       "startDate": "2016",
-      "description": "Developing the professionalism and formalism of the social hobbies in my locality. From Japanese and Culture teacher to a producer and organizer of one of the most well regarded pop-culture events in my State and its area.",
+      "description": "Developing the professionalism and formalism of the social hobbies in my locality. From Japanese and Culture teacher to a producer and organizer of one of the most well regarded pop-culture events in my State and surrounding area.",
       "images": [
         "images/portfolio/social/larocket.jpg",
         "images/portfolio/social/kanji.jpg",
@@ -202,7 +222,7 @@
     {
       "title": "Distributed Biometrics Attendance System API",
       "startDate": "2017",
-      "description": "Creating the API for managing and communicating the biometric access and attendance of several branches of a dentist clinic. Here my previous experience with working with ZKTechnology and my bachelor in electronics really came to shine.",
+      "description": "REST-API for managing and communicating the biometric access and attendance of several branches of a dentist clinic. Usually in these APIs, I include end-points to safely query their own logs, allowing my clients to monitor the health of the device network. In this project, my previous experience on working with ZKTechnology biometric devices and my bachelor in electronics really came to save the day allowing me to delivery the project in under a month.",
       "images": [
         "images/portfolio/biometric/Turnstile.jpg",
         "images/portfolio/biometric/Turnstile-test.jpg"
@@ -230,7 +250,7 @@
     {
       "title": "Fitbit Annotator",
       "startDate": "2023",
-      "description": "Originally part the second phase of my research, its evolution got halted by Google's silent decision to stop supporting Fitbit's Sense2 SDK development. A platform to record events, periods of activity and biometric signals from Fitbit's smartwatches. It is accompanied by a server-side script to retrieve all the data as CSV files on a safe manner that avoids missing data. The interface reuses recognizable standard emojis that the developer can use to quickly add new states and emotions to register.",
+      "description": "Originally part of the second phase of my research, its evolution got halted by Google's silent decision to stop supporting Fitbit's Sense2 SDK development. This was a platform to record events, periods of activity and biometric signals from Fitbit's smartwatches. It was accompanied by a server-side script to safely retrieve annotations and biometric data as CSV files, taking special care to avoid missing data. This interface reuses recognizable standard emojis that the developer can use to quickly add new states and emotions to annotate.",
       "images": [
         "images/portfolio/fitbit/InterfaceDemo.gif"
       ],
@@ -245,7 +265,7 @@
           "name": "PHP"
         },
         {
-          "class": "devicon-css-plain",
+          "class": "devicon-css3-plain",
           "name": "CSS"
         }
       ]
@@ -253,7 +273,7 @@
     {
       "title": "Pi-InfoScreen",
       "startDate": "2023",
-      "description": "One of my pet projects, a weather display with e-paper for the RaspberryPi. Paired with a common SystemD deamonized script for RaspberryPi power control and PoE extensions, it makes any Raspi a very convenient over-the-desk device. Compatible with B and Zero sized Raspberry Pi's, by rotating the placement of the on-screen information it protects the e-paper from burn in too.",
+      "description": "In my free time, I like to delve in automation and IoT, and this is one of those projects: a weather display with e-paper for the Raspberry Pi. Paired with a common SystemD daemonized script for Raspberry Pi power control and PoE extensions, it makes any Raspi a very convenient over-the-desk info device. Compatible with B and Zero-sized Raspberry Pi's, by rotating the placement of the information on the screen, it protects the e-paper from burn-in too. It is also configured as a WiFi access-point that during parties, allows me to share my room's Internet with lounges several meters away!",
       "images": [
         "images/portfolio/piinfoscreen/PiInfoScreen.jpg"
       ],
@@ -266,13 +286,17 @@
         {
           "class": "devicon-bash-plain",
           "name": "Scripting"
+        },
+        {
+          "class": "mdi--local-area-network",
+          "name": "Networking"
         }
       ]
     },
     {
       "title": "ShowMe A Safe House",
       "startDate": "2022",
-      "description": "One of my main Research projects. An interactive Disaster Preparedness Guideline designed to be able to reach the wide age range present in the General Public.\n\nRunning in both Android and iPhone phones thanks to the multiplatform capabilities of Unity3D, it leverages its extensive support of Augmented Reality and Deep Learning Object Detection models to offer a hands-on approach in improving the safety of personal spaces against the hazards of earthquakes.",
+      "description": "One of my main research projects. An interactive Disaster Preparedness Guideline designed to be able to reach the wide range of ages present in the General Public.\n\nRunning in both Android and iPhone phones thanks to the multiplatform capabilities of Unity3D, it leverages its extensive support of Augmented Reality and Deep Learning Object Detection models to offer a hands-on approach in improving the safety of personal spaces against the hazards of earthquakes.",
       "images": [
         "images/portfolio/showmesafehouse/InterfaceVisualStatus.jpg",
         "images/portfolio/showmesafehouse/Interface.gif",
@@ -287,6 +311,10 @@
         {
           "class": "devicon-python-plain",
           "name": "Python"
+        },
+        {
+          "class": "token--0x0",
+          "name": "Deep Learning"
         },
         {
           "class": "devicon-unity-plain",
@@ -309,6 +337,7 @@
       "title": "Full-Stack Developer",
       "years": "2011.04 - 2015.07",
       "mainTech": ["PHP/Python"],
+      "mainTechIcon": "fab fa-php",
       "technologies": [
         "PHP",
         "REST API",
@@ -339,6 +368,7 @@
       "title": "Consultant Full-Stack Support and Maintenance",
       "years": "2015.07 - present",
       "mainTech": ["Linux VPS and Software Development"],
+      "mainTechIcon": "fab fa-linux",
       "technologies": [
         "PHP",
         "REST API",
@@ -370,6 +400,7 @@
       "title": "Production Team",
       "years": "2016.04 - 2021.03",
       "mainTech": ["Coordination, Planning, Budgeting and Infrastructure"],
+      "mainTechIcon": "fas fa-users",
       "technologies": [
         "Google Services",
         "Internet Gateways",
@@ -381,17 +412,23 @@
       "company": "Monterrey Institute of Technology and Higher Education",
       "title": "Third Language Teacher",
       "years": "2019.07 - 2021.02",
-      "mainTech": ["Presential and Remote lessons"],
+      "mainTech": ["Academy Group Lessons"],
+      "mainTechIcon": "fas fa-language",
       "technologies": [
-        "Zoom",
-        "Special Needs Education"
+        "Remote",
+        "Presential",
+        "Calligraphy",
+        "Culture",
+        "Young Adults",
+        "Special Needs Support"
       ]
     },
     {
       "company": "Nara Institute of Science and Technology",
       "title": "Graduate Student",
       "years": "2021.04 - Present",
-      "mainTech": ["Master and Phd Student"],
+      "mainTech": ["Master and PhD Student"],
+      "mainTechIcon": "fas fa-user-graduate",
       "technologies": [
         "Unity3D",
         "C#",
