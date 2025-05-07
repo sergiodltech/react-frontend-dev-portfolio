@@ -25,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": ""
+    "dryupload": "rsync --dry-run --exclude '.DS_Store' -vzcr --delete build/* www-data@techoblige.com:/srv/techob/",
+    "deploy": "rsync --exclude '.DS_Store' -vzcr --delete build/* www-data@techoblige.com:/srv/techob/"
   },
   "eslintConfig": {
     "extends": "react-app"
