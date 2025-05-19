@@ -25,8 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "dryupload": "rsync --dry-run --exclude '.DS_Store' -vzcr --delete build/* www-data@techoblige.com:/srv/techob/",
-    "deploy": "rsync --exclude '.DS_Store' -vzcr --delete build/* www-data@techoblige.com:/srv/techob/"
+    "dryupload": "rsync --dry-run --exclude '.DS_Store' -vzcr --delete build/* techob@tun.techoblige.com:/home/techob/nginx/html/",
+    "deploy": "rsync --exclude '.DS_Store' -vzcr --delete build/* techob@tun.techoblige.com:/home/techob/nginx/html/"
   },
   "eslintConfig": {
     "extends": "react-app"
